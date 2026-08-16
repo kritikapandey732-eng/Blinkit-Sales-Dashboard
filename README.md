@@ -20,11 +20,11 @@ The objective of this project is to transform raw Blinkit sales data into an int
 - Sales distribution across different outlet tiers
 - Historical sales trends
 
-The project demonstrates the use of **Power Query, data cleaning, data transformation, DAX, data visualisation, and interactive dashboard design** in Power BI.
+The project demonstrates the use of **Power Query, DAX, data modelling, data visualisation, and interactive dashboard design** in Power BI.
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
 The main objectives of the dashboard are:
 
@@ -40,7 +40,7 @@ The main objectives of the dashboard are:
 
 ---
 
-# 📊 Dataset
+## 📊 Dataset
 
 The project uses a Blinkit sales dataset containing **1.2M+ sales records**.
 
@@ -60,7 +60,7 @@ The data was cleaned and transformed before being used for dashboard development
 
 ---
 
-# 🧹 Data Preparation
+## 🧹 Data Preparation
 
 The raw dataset was prepared using **Power Query** before creating the dashboard.
 
@@ -77,7 +77,7 @@ Power Query was used as the primary data transformation tool.
 
 ---
 
-# 📐 DAX Measures
+## 📐 DAX Measures
 
 DAX was used to create important KPIs and analytical measures for the dashboard.
 
@@ -99,13 +99,13 @@ These measures were then used across different dashboard visualisations to provi
 
 ---
 
-# 📌 Key Performance Indicators
+## 📌 Key Performance Indicators
 
 The dashboard focuses on the following major KPIs:
 
 | KPI | Purpose |
 |---|---|
-| **Total Sales** | Measures overall revenue/sales performance |
+| **Total Sales** | Measures overall sales performance |
 | **Average Sales** | Measures average sales value |
 | **Average Rating** | Measures average customer rating |
 
@@ -113,11 +113,11 @@ These KPIs provide a quick overview of overall business performance.
 
 ---
 
-# 📊 Dashboard Analysis
+## 📊 Dashboard Analysis
 
 The dashboard provides analysis across multiple dimensions.
 
-## 🏪 Outlet Analysis
+### 🏪 Outlet Analysis
 
 Sales performance is analysed across different outlet characteristics, including:
 
@@ -129,9 +129,7 @@ Sales performance is analysed across different outlet characteristics, including
 
 This helps identify which types of outlets contribute most to overall sales.
 
----
-
-## 🥫 Item Category Analysis
+### 🥫 Item Category Analysis
 
 The dashboard analyses sales across different item categories to understand:
 
@@ -139,31 +137,23 @@ The dashboard analyses sales across different item categories to understand:
 - Low-performing categories
 - Category contribution to overall sales
 
-This can help identify which product categories are driving sales.
+This helps identify which product categories are driving sales.
 
----
+### 📍 Outlet Tier Analysis
 
-## 📍 Outlet Tier Analysis
-
-The dashboard compares sales performance across different outlet tiers.
-
-The analysis helps identify differences in sales performance between:
+The dashboard compares sales performance across different outlet tiers:
 
 - Tier 1
 - Tier 2
 - Tier 3
 
-In the analysis, **Tier 3 outlets show strong sales performance and contribute significantly to overall sales.**
+The analysis shows that **Tier 3 outlets contribute significantly to overall sales**.
 
----
-
-## ⭐ Customer Rating Analysis
+### ⭐ Customer Rating Analysis
 
 Customer ratings are analysed alongside sales information to understand customer perception and outlet/product performance.
 
----
-
-## 📈 Sales Trend Analysis
+### 📈 Sales Trend Analysis
 
 Sales performance is also analysed across time using outlet establishment year and related dimensions.
 
@@ -171,7 +161,7 @@ This helps identify changes in sales performance across different outlet generat
 
 ---
 
-# 🎨 Dashboard Features
+## 🎨 Dashboard Features
 
 The Power BI dashboard includes:
 
@@ -181,14 +171,14 @@ The Power BI dashboard includes:
 - Item category analysis
 - Outlet tier comparison
 - Rating analysis
-- Interactive filters/slicers
+- Interactive filters and slicers
 - Data-driven visualisations
 
 Users can interact with the dashboard to filter and analyse different segments of the business.
 
 ---
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
 ```text
                 Raw Blinkit Dataset
