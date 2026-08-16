@@ -24,6 +24,14 @@ The project demonstrates the use of **Power Query, DAX, data modelling, data vis
 
 ---
 
+## 📚 Project Background
+
+This project was developed as a learning and portfolio exercise using a publicly available Blinkit sales dataset. It was initially built by following a Power BI tutorial and was subsequently used to gain hands-on experience with **Power Query, DAX, data modelling, dashboard design, and business data analysis**.
+
+The goal was to move beyond passive learning and apply core Power BI concepts to a realistic, end-to-end business intelligence workflow — from raw data to actionable insights.
+
+---
+
 ## 🎯 Project Objectives
 
 The main objectives of the dashboard are:
@@ -83,17 +91,11 @@ DAX was used to create important KPIs and analytical measures for the dashboard.
 
 Key metrics include:
 
-### Total Sales
+**Total Sales** — Measures the overall sales generated across the dataset.
 
-Measures the overall sales generated across the dataset.
+**Average Sales** — Calculates the average sales value.
 
-### Average Sales
-
-Calculates the average sales value.
-
-### Average Rating
-
-Calculates the average customer rating.
+**Average Rating** — Calculates the average customer rating.
 
 These measures were then used across different dashboard visualisations to provide dynamic insights.
 
@@ -209,3 +211,4 @@ Users can interact with the dashboard to filter and analyse different segments o
                          │
                          ▼
                  Business Insights
+```
